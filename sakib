@@ -1,9 +1,4 @@
 1.Binary Exponentiation:(a^b)
-
-const long long MOD = 1000000007;
-long long power(long long a, long long b)
-{
-    long long ans = 1;
     a %= MOD;
     while(b > 0)
     {
@@ -13,6 +8,16 @@ long long power(long long a, long long b)
         }
         a = (a * a) % MOD;
         b /= 2;
-    }
-    return ans;
+2.GCD:
+-> standard function
+#include <numeric>
+cout << gcd(18,12);
+-> stl
+cout << __gcd(18,12);
+-> Recursive version
+long long gcd(long long a, long long b)
+{
+    if(b == 0)
+        return a;
+    return gcd(b, a % b);
 }
