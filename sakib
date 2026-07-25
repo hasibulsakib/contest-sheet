@@ -1,4 +1,4 @@
-1.Binary Exponentiation:
+1.Binary Exponentiation:(a^b)
 
 const long long MOD = 1000000007;
 long long power(long long a, long long b)
