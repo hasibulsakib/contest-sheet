@@ -1,6 +1,18 @@
+1.Binary Exponentiation:
 
-#include<bits/stdc++.h>
-using namespace std;
-int main(){
-cout << "HELLO";
+const long long MOD = 1000000007;
+long long power(long long a, long long b)
+{
+    long long ans = 1;
+    a %= MOD;
+    while(b > 0)
+    {
+        if(b % 2 == 1)
+        {
+        ans = (ans * a) % MOD;
+        }
+        a = (a * a) % MOD;
+        b /= 2;
+    }
+    return ans;
 }
