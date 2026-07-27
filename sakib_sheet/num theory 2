@@ -1,0 +1,33 @@
+Euclidean Algorithm
+
+Need:
+- GCD
+- LCM
+- Coprime
+- Fraction Reduce
+- Synchronization
+
+Formula
+
+gcd(a,b)=gcd(b,a%b)
+
+LCM=(a/gcd)*b
+
+Complexity
+
+O(logN)
+
+Code
+
+long long gcd(long long a,long long b){
+    while(b){
+        a%=b;
+        swap(a,b);
+    }
+    return a;
+}
+
+long long lcm(long long a,long long b){
+    return a/gcd(a,b)*b;
+}
+
