@@ -21,3 +21,13 @@ long long gcd(long long a, long long b)
         return a;
     return gcd(b, a % b);
 }
+
+
+
+2... string to int / int to string
+
+int x = 12345;
+string s = to_string(x);
+
+string s = "5678";
+int x = stoi(s);
