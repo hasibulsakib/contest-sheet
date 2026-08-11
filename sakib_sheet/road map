@@ -1,1 +1,38 @@
-
+Stage 0 — Foundation (প্রায় শেষ, maintain করো)
+ Math basics — GCD/LCM, modular arithmetic
+ Number theory — sieve, linear sieve, segmented sieve, Euler's totient
+ STL — vector, stack, queue, priority_queue, map, set
+ Two pointers
+ Sliding window
+Stage 1 — Next Priority (এখনই শুরু করার মতো)
+Recursion + Backtracking — চলছে, DP তে যাওয়ার আগে শেষ করো
+Binary Search (+ binary search on answer) — CF তে heavy weight, two pointers এর related
+Prefix sum / Difference array — ছোট কিন্তু foundational, দ্রুত শেখা যায়
+Stage 2 — Core Middle Tier
+Graph — BFS / DFS — চলছে, continue করো
+Bit manipulation — bitwise ops, XOR tricks, popcount, subset enumeration
+Basic DP — 1D DP (Fibonacci, climbing stairs), knapsack, LIS
+Stage 3 — Intermediate
+Graph — Dijkstra (shortest path)
+Union-Find / DSU
+Topological sort
+DP on graphs / trees
+Bitmask DP (TSP-style, N ≤ 20)
+Segment tree / Fenwick tree (BIT)
+Stage 4 — Advanced (৬ মাস+ পরে)
+Advanced graph — MST, SCC, max flow
+String algorithms — KMP, Z-function, hashing
+Advanced DP — digit DP, DP optimization (bitset, CHT, etc.)
+Advanced number theory — extended Euclid, CRT, matrix exponentiation
+Suggested Practice Sources per Topic
+Topic	Source
+Two pointers / Sliding window	CSES, CF 900-1300 rated
+Recursion / Backtracking	CSES "Introductory Problems", CF Div3/4
+Binary search	CSES "Factory Machines", CF binary-search-on-answer tag
+Prefix sum	CSES "Range Sum Queries"
+BFS/DFS	CSES "Graph Algorithms" section
+Bit manipulation	CSES "Bit Strings", CF XOR-tag problems
+Basic DP	CSES "Dice Combinations", "Coin Combinations"
+Dijkstra / DSU	CSES "Shortest Routes", "Road Construction"
+Bitmask DP	CSES "Elevator Rides"
+Segment tree / BIT	CSES "Range Update Queries"
